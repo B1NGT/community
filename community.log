@@ -1,0 +1,12 @@
+2024-08-01 23:14:15.932  INFO 16100 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 11.0.23 on LAPTOP-CB6I851P with PID 16100 (started by HP in G:\workspace\community)
+2024-08-01 23:14:15.932 DEBUG 16100 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.4.2, Spring v5.3.3
+2024-08-01 23:14:15.932  INFO 16100 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to default profiles: default
+2024-08-01 23:14:17.741  INFO 16100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-01 23:14:17.851  INFO 16100 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-01 23:14:17.991  WARN 16100 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-08-01 23:14:18.194  INFO 16100 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 2.761 seconds (JVM running for 3.804)
+2024-08-01 23:14:18.599 DEBUG 16100 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2024-08-01 23:14:18.599  INFO 16100 --- [main] com.nowcoder.community.LoggerTests       : info log
+2024-08-01 23:14:18.599  WARN 16100 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2024-08-01 23:14:18.599 ERROR 16100 --- [main] com.nowcoder.community.LoggerTests       : error log
+2024-08-01 23:14:18.615  INFO 16100 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
