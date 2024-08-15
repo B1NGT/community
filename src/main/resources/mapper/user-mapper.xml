@@ -29,12 +29,12 @@
         values(#{username},#{password},#{salt},#{email},#{type},#{status},#{activationCode},#{headerUrl},#{createTime})
     </insert>
     <update id="updateStatus">
-        update user set status=#{param2} where id=#{param1}
+        update user set status=#{status} where id=#{id}
     </update>
     <update id="updateHeader">
-        update user set header_url=#{param2} where id=#{param1}
+        update user set header_url=#{headerUrl} where id=#{id}
     </update>
     <update id="updatePassword">
-        update user set password=#{param2} where id=#{param1}
+        update user set password=#{password} where id=#{id}
     </update>
 </mapper>
